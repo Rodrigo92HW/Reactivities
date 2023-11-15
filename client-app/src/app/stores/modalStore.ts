@@ -1,8 +1,8 @@
-import { makeAutoObservable } from "mobx";
+import { makeAutoObservable } from "mobx"
 
 interface Modal {
-    open: boolean,
-    body: JSX.Element | null
+    open: boolean;
+    body: JSX.Element | null;
 }
 
 export default class ModalStore {
